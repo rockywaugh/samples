@@ -1,0 +1,118 @@
+﻿[Target:WebHelp Pro]
+ResultFileName=!SSL!\WebHelp_Pro\RIO_Online_Help.htm
+SSLayoutType=32
+ServerProjectName=RIO Online Help
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+Enable Result Dialog=1
+ActionID For Generation=1001
+Remove Folder with prompt=1
+ViewFileName=!SSL!\WebHelp_Pro\RIO_Online_Help.htm
+ResultStatus=0
+MindReader Server=
+BuildTimeHi=30483997
+BuildTimeLow=1970056180
+[Target:WebHelp]
+ResultFileName=!SSL!\WebHelp\RIOHelp.htm
+SSLayoutType=2
+CreateProjectTime=10:09, April 12, 2016
+CreateProjectUser=E041529
+SupportMas_MPJ=1
+ActionID For Generation=1001
+Remove Folder with prompt=1
+ViewFileName=!SSL!\WebHelp\RIOHelp.htm
+ResultStatus=0
+BuildTimeHi=30512325
+BuildTimeLow=274535934
+Enable Result Dialog=1
+PublishResultStatus=0
+LastPublishTimeHi=30512325
+LastPublishTimeLow=1992339082
+[Target:Microsoft HTML Help]
+ResultFileName=!SSL!\Microsoft_HTML_Help\RIO_Online_Help.chm
+SSLayoutType=1
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:FlashHelp]
+ResultFileName=!SSL!\FlashHelp\RIO_Online_Help.htm
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:Printed Documentation]
+ResultFileName=C:\Users\E041529\Documents\RIO\TechOps\Tech_Ops.doc
+SSLayoutType=7
+ActionID For Generation=1001
+Remove Folder with prompt=1
+CreateProjectTime=11:23, December 03, 2015
+CreateProjectUser=E041529
+SupportMas_MPJ=1
+ViewFileName=C:\Users\E041529\Documents\RIO\TechOps\Tech_Ops.doc
+ResultStatus=0
+BuildTimeHi=30485990
+BuildTimeLow=-524929767
+[Target:XML Output]
+ResultFileName=!SSL!\XML_Output\RIO_Online_Help.xml
+SSLayoutType=8129
+[Target:FlashHelp Pro]
+ResultFileName=!SSL!\FlashHelp_Pro\RIO_Online_Help.htm
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:Adobe AIR]
+ResultFileName=!SSL!\Adobe_AIR\RIO_Online_Help.air
+SSLayoutType=512
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:Multiscreen HTML5]
+ResultFileName=!SSL!\Multiscreen_HTML5\RIO_Online_Help.htm
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:eBook]
+ResultFileName=!SSL!\eBook\RIO_Online_Help.epub
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[PreSingleSource]
+Html Help Project=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.hhp
+Table Of Content=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.hhc
+Index=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.hhk
+Topic Index=C:\Users\E041529\Documents\RIO Online Help_RH2015\RHTopicKeyword$.hhk
+See Also Index=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.hha
+Browse Sequence=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.brs
+Glossary=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.glo
+Topic Properties=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.trs
+Active Folders=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.trf
+Baggage Files=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.trb
+Skin List=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.trk
+Active Layout Names=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.trl
+Template Files=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.trt
+Project TOC List=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.trtocl
+Project Index List=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.tridxl
+Project Glossary List=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.trglol
+Project CSS List=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.trcss
+Project Variable Set List=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.trvset
+External URL Settings=C:\Users\E041529\Documents\RIO Online Help_RH2015\SearchOptions.xml
+Screen Template File Details=C:\Users\E041529\Documents\RIO Online Help_RH2015\RIO Online Help.sctfdl
+CPSwfToHTML5Map=C:\Users\E041529\Documents\RIO Online Help_RH2015\__cpSwf2HTML5ZipMap
+Default Topic=C:\Users\E041529\Documents\RIO Online Help_RH2015\Getting_Started\Introduction.htm
+Build Tags0=25420;Online | Print
+Build Tags=
+Build Expression=
+Language ID=1033
+Language Name=en_US
+Language=C:\Users\E041529\Documents\RIO Online Help_RH2015\!Language!\en_US\RoboHHRE.lng
+Stop List=C:\Users\E041529\Documents\RIO Online Help_RH2015\!Language!\en_US\RIO Online Help.stp
+[Server:RIO]
+Time Stamp=1408647659
+[Server:JudithLibrary]
+Time Stamp=1410795113
+[Server:RRMailer]
+Time Stamp=1410796262

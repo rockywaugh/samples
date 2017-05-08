@@ -1,0 +1,21 @@
+<div class="sidebar l-pinned-left l-layer-4 l-offset-nav">
+  <div class="sidebar-list">
+    <div class="sidebar-blocks" *ngFor="let item of topics">
+      <a [routerLink]="[item.name]" (click)="item.isCollapsed = !item.isCollapsed">{{item.title}}</a>
+      <div class="sidebar-list-second" *ngIf="item.subtopics" [collapse]="item.isCollapsed">
+        <ul>
+          <li *ngFor="let subItem of item.subtopics">
+            <a [routerLink]="[subItem.name]" (click)="subItem.isCollapsed = !subItem.isCollapsed">{{subItem.title}}</a>
+            <div class="sidebar-list-third" *ngIf="subItem.subtopics" [collapse]="subItem.isCollapsed">
+              <ul>
+                <li *ngFor="let subItem2 of subItem.subtopics">
+                  <a [routerLink]="[subItem2.name]">{{subItem2.title}}</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

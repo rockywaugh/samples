@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Netcool Alarms Dashboard</title>
+<link rel="StyleSheet" href="../RIOStyle.css" type="text/css" />
+</head>
+<body>
+<h2>Alarm Management Dashboard</h2>
+<p>The Alarm Management dashboard provides Netcool alarm details. The dashboard displays a summary of alarm information and provides a link to <a href="#Viewing_Alarm_Details">view additional alarm details</a>. You can also set <a href="Configuring_Dashboard_Preferences.htm">user preferences</a> for viewing alarms in this dashboard.</p>
+<p>The dashboard also allows you to <a href="Acknowledging_and_Ticketing_Alarms.htm">acknowledge or create a ticket</a> for an alarm or view existing <a href="#Viewing_Ticket_Details">ticket details</a>.</p>
+<p>To view the dashboard:</p>
+<p>From the <a href="../Getting_Started/Navigating_RIO.htm#Menu">Menu</a>, select <span style="font-weight: bold;">Fault Management&gt;Alarm Management</span>.</p>
+<p style="margin-left: 24px;"><img src="Netcool_Alarms_Dashboard.htm.gif" alt="" style="border: none;" border="0" /></p>
+<?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet" style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">Use the <span style="font-weight: bold;">View</span> drop-down list to narrow your results. These lists are from Netcool.</p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet">Use the <span style="font-weight: bold;">Filters</span> drop-down list to show actionable or maintenance alarms. Use the <span style="font-weight: bold;">Filter Results</span> text box to further narrow results on the page (see <a href="#Using_Filters">Using Filters</a>).</p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet" style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">When you select one or more alarms, RIO displays the <span style="font-weight: bold;">Manage Alarms</span> drop-down menu (see <a href="#Managing_Alarms">Managing Alarms</a>).</p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet" style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">If the alarm is already ticketed, RIO displays the Status and a Ticket link. RIO displays links for Trouble, Change, and Task tickets as appropriate. A sample is shown below. For additional information, see <a href="#Viewing_Ticket_Details">Viewing Ticket Details</a>.</p>
+<?rh-list_end ?>
+<p style="margin-left: 24px;"><img src="Ticket links.gif" alt="" style="border: none;" border="0" /></p>
+<p>&#160;</p>
+<h3><a name="Using_Filters" id="Using_Filters"></a>Using Filters</h3>
+<p>The Alarm Management dashboard provides a Filter drop-down list and a Filter Results text field to further narrow results.</p>
+<p>Use the <span style="font-weight: bold;">Filters</span> drop-down list to select which alarms to show.</p>
+<img src="Actionable menu.gif" alt="" style="border: none;" border="0" />
+<p>You can filter by Actionable or Maintenance status, or view All tickets regardless of status.</p>
+<?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet"><span style="font-weight: bold;">Actionable</span> alarms are alarms that are either <span style="font-weight: bold;">Active</span> with an open Ticket but are <span style="font-weight: bold;">not</span> Acknowledged, or are Cleared but <span style="font-weight: bold;">not</span> Acknowledged (ticket requirement).</p>
+<?rh-list_end ?>
+<p class="ListContinue">If you select Actionable in the filter, RIO displays only alarms that still have outstanding actions.&#160;</p>
+<?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet"><span style="font-weight: bold;">Hold</span> refers to all alarms that are properly associated with a ticket (Active, Acknowledged with Open Ticket or Cleared, Acknowledged at all), but which were just recently associated with a ticket within the past five minutes.</p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet"><span style="font-weight: bold;">Act + Hold</span> is the combination of Actionable and Hold. With this option, RIO lists currently outstanding issues, plus issues that were just recently associated with an open ticket.&#160;&#160;This allows you to reference the alarm for a brief period of time after which it disappears from view.</p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet"><span style="font-weight: bold;">Delay Actionable</span> allows you to enter a time-frame in minutes to view alarms that have not been acknowledged in X number of minutes.</p>
+<?rh-list_end ?>
+<p>You can also filter alarms by Maintenance status and view only Maintenance alarms (Only Maint) or to not show any Maintenance alarms (No Maint).</p>
+<p>Use the <span style="font-weight: bold;">Filter Results</span> text field to further narrow results and Columns drop-down list to customize your view. For additional information on using the sort and filter features in this table, see <a href="../Application_Features_and_Tools/Using_Table_Tools_and_Features.htm">Using Table Tools and Features</a>.</p>
+<h3><a name="Viewing_Ticket_Details" id="Viewing_Ticket_Details"></a>Viewing Ticket Details</h3>
+<p style="margin-left: 0px; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman';"><span style="mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">If the alarm is already ticketed, RIO provides a link to view Ticket details. RIO displays links for Trouble, Change, and Task tickets as appropriate. A sample is shown below.</span></p>
+<p style="mso-bidi-font-size: 12.0pt; margin-left: 24px; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman';"><span style="mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><img src="Ticket details.gif" alt="" style="border: none;" border="0" /></span></p>
+<p style="margin-left: 0px; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">Click <span style="font-weight: bold;">View in Eventrak</span> to log into Eventrak.</p>
+<h3 style="mso-bidi-font-size: 12.0pt;"><span style="mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><a name="Viewing_Alarm_Details" id="Viewing_Alarm_Details"></a>Viewing Alarm Details</span></h3>
+<p>To view alarm details, click the Alarm Details icon (<img src="View_Alarm_Details_icon.gif" alt="" style="border: none;" border="0" />) next to the alarm entry, as shown below.</p>
+<p style="margin-left: 48px;"><img src="Alarm_details.gif" alt="" style="border: none;" border="0" /></p>
+<p style="margin-left: 0px; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">&#160;</p>
+<h3><a name="Managing_Alarms" id="Managing_Alarms"></a>Managing Alarms</h3>
+<p>When you select one or more alarms, RIO displays the Manage Alarms drop-down menu. A sample is shown below.</p>
+<p style="margin-left: 48px;"><img src="Manage Alarms drop_down.gif" alt="" style="border: none;" border="0" /></p>
+<p>Make a selection from the Manage Alarms menu to Acknowledge, Ticket, or Delete the selected alarms.</p>
+<?rh-list_start class="ListBullet1" level="1" style="list-style: rh-list; 
+                                 list-style: rh-list;" ?>
+<p class="ListBullet" style="mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt;"><span style="font-weight: bold;">Pause icon</span> (<span style="font-weight: bold;">II</span>) to disable auto-refresh.</p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" level="1" style="list-style: rh-list; 
+                                 list-style: rh-list;" ?>
+<p class="ListBullet" style="mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt;"><span style="font-weight: bold;">Up/Down arrow</span> to collapse or expand Summary text.</p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" level="1" style="list-style: rh-list; 
+                                 list-style: rh-list;" ?>
+<p class="ListBullet" style="mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt;"><span style="font-weight: bold;">Wrench icon</span> (<img src="wrench_icon_preferences.gif" alt="" style="border: none;" border="0" />) to configure preferences for this dashboard.</p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" level="1" style="list-style: rh-list; 
+                                 list-style: rh-list;" ?>
+<p class="ListBullet" style="mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt;"><span style="font-weight: bold;">Minus icon</span> (<span style="font-weight: bold;">–</span>) to hide headers and view full-screen. Click the plus (<span style="font-weight: bold;">+</span>) icon to view headers.</p>
+<?rh-list_end ?>
+<p>For additional information, see <a href="Acknowledging_and_Ticketing_Alarms.htm">Acknowledging and Ticketing Alarms</a>.</p>
+</body>
+</html>

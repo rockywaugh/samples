@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>PNM Tab</title>
+<link rel="StyleSheet" href="../../RIOStyle.css" type="text/css" />
+</head>
+<body>
+<h3>PNM Tab</h3>
+<p>The PNM (Proactive Network Maintenance) tab displays the results of signal negotiation between a cable modem and the CMTS to mitigate distortion (this is known as “pre-equalization”). This data essentially provides a look inside the upstream channel for troubleshooting signal issues.</p>
+<p>A sample of a cable modem with “good” equalization patterns is shown below.</p>
+<p style="margin-left: 24px;"><img src="../Graphics/CM_PNM tab.gif" alt="" style="border: none;" border="0" /></p>
+<?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet" style="mso-list: l0 level1 lfo2;"><span style="mso-list: l0 level1 lfo2;">The <b style="mso-bidi-font-weight: normal;">Pre-Equalization Coefficients graph</b> displays data points for identifying the location of noise or signal distortion. The gray bar shows the Main Tap coefficient (zero) where most of the energy is concentrated (and represents the device). An upstream channel with no distortion has all the energy concentrated in the Main Tap, while one that exhibits distortion also has energy in the other taps. The purple bars indicate points where noise is occurring in other taps, either close to the modem or farther away. Each tap after the Main Tap is approximately 75 feet farther in distance.</span></p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet" style="mso-list: l0 level1 lfo2;">In the <b style="mso-bidi-font-weight: normal;">Key Metrics</b> graph, the <b style="mso-bidi-font-weight: normal;">NMTER</b> displays the energy ratio of the non-main taps compared to the Main Tap. The <span class="bumpedfont15">further this number is from 0 the better the signal.<br />
+Therefore, -30 is better than -15.</span> In the example above, the NMTER (Non-Main Tap Energy Ratio) is -27.362, indicating a fairly good signal.</p>
+<?rh-list_end ?><?rh-list_start class="Note1" level="2" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="Note" style="mso-list: l1 level1 lfo1; margin-left: 100px; text-indent: -60px;">Numbers in the zero (0) to -15 range indicate bad signals.</p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet"><span style="mso-list: l0 level1 lfo2;">The <b style="mso-bidi-font-weight: normal;">In-Channel Frequency Response</b> (IFCR) Amplitude graph indicates how much the signal wave was transformed to make it readable. In this graph, you want the line to be as straight as possible and remain in the highlighted area of the graph.</span></p>
+<?rh-list_end ?>
+<p style="mso-list: l0 level1 lfo2;">In contrast, a cable modem with poor equalization patterns displays more noise in the non-Main Taps and the IFCR line is very wavy. A sample is shown below.</p>
+<p style="mso-list: l0 level1 lfo2;">In this example, the NMTER is -7.012. The taps show noise and signal distortion close to and far away from the modem, and the ICFR graph indicates the signal is not readable.</p>
+<p style="mso-list: l0 level1 lfo2; margin-left: 24px;"><img src="../Graphics/CM_PNM tab_bad levels.gif" alt="" style="border: none;" border="0" /></p>
+<p style="mso-list: l0 level1 lfo2;">&#160;</p>
+</body>
+</html>
