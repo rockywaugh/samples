@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rhpml majorversion="7" minorversion="13">
+	<projectproperties>
+		<projecttitle>RIO Online Help</projecttitle>
+		<homepage>First Topic.htm</homepage>
+		<primarylayout>WebHelp</primarylayout>
+		<Flags>92</Flags>
+		<language>1033</language>
+	</projectproperties>
+	<TOCFileNames>
+		<TOC>
+			<file>RIO Online Help.hhc</file>
+			<default>default</default>
+		</TOC>
+	</TOCFileNames>
+	<IndexFileNames>
+		<Index>
+			<file>RIO Online Help.hhk</file>
+			<default>default</default>
+		</Index>
+	</IndexFileNames>
+	<GlossaryFileNames>
+		<Glossary>
+			<file>RIO Online Help.glo</file>
+			<default>default</default>
+		</Glossary>
+	</GlossaryFileNames>
+	<ignoredwords>
+		<word>Username</word>
+		<word>Device(s</word>
+		<word>Bookmarking</word>
+		<word>Metrics</word>
+		<word>GIS</word>
+		<word>option(s</word>
+		<word>HFC</word>
+		<word>result(s</word>
+		<word>IP</word>
+		<word>Field(s</word>
+		<word>Unquarantine</word>
+		<word>reason(s</word>
+		<word>TOC</word>
+		<word>RF</word>
+		<word>Uncorrectable</word>
+		<word>Unerrored</word>
+		<word>Codewords</word>
+		<word>metric(s</word>
+		<word>Using_Pop-Out_Windows</word>
+		<word>CM_Summary</word>
+		<word>non-ADSG</word>
+		<word>Service_Path</word>
+		<word>Additional_Toolbar</word>
+		<word>Addt'l</word>
+	</ignoredwords>
+	<TODOList>
+		<TODOItem>First Draft</TODOItem>
+		<TODOItem>Added To TOC</TODOItem>
+		<TODOItem>Links</TODOItem>
+		<TODOItem>Ran Smart Index</TODOItem>
+		<TODOItem>Index keywords</TODOItem>
+		<TODOItem>See Also keywords</TODOItem>
+		<TODOItem>Images</TODOItem>
+		<TODOItem>Browse Sequences</TODOItem>
+		<TODOItem>Tested</TODOItem>
+		<TODOItem>Finalized</TODOItem>
+		<TODOItem>Reviewed</TODOItem>
+	</TODOList>
+	<miscproperties/>
+	<CompileOptions>
+		<Flags>12</Flags>
+	</CompileOptions>
+	<Collections>
+		<FolderCollectionFilename>root.fpj</FolderCollectionFilename>
+		<SkinCollectionFilename>rhskins.apj</SkinCollectionFilename>
+		<BaggageCollectionFilename>rhbag.apj</BaggageCollectionFilename>
+		<WindowCollectionFilename>rhwnd.apj</WindowCollectionFilename>
+		<TemplateCollectionFilename>rhtemplate.apj</TemplateCollectionFilename>
+		<BuildTagCollectionFilename>rhbuildtag.apj</BuildTagCollectionFilename>
+		<MapFileCollectionFilename>rhmapfile.apj</MapFileCollectionFilename>
+		<ColorCollectionFilename>rhcolor.apj</ColorCollectionFilename>
+		<sresCollectionFilename>rhsharedresource.apj</sresCollectionFilename>
+		<FontSetCollectionFilename>rhfontset.apj</FontSetCollectionFilename>
+		<ExternalFileCollectionFilename>rhextern.apj</ExternalFileCollectionFilename>
+		<LayoutCollectionFilename>rhlayout.apj</LayoutCollectionFilename>
+		<AKeywordCollectionFilename>rhakeyword.apj</AKeywordCollectionFilename>
+		<KKeywordCollectionFilename>rhkkeyword.apj</KKeywordCollectionFilename>
+		<PopupTopicCollectionFilename>rhpopup.apj</PopupTopicCollectionFilename>
+		<FramesetCollectionFilename>rhframeset.apj</FramesetCollectionFilename>
+		<MergedHelpCollectionFilename>rhmhelp.apj</MergedHelpCollectionFilename>
+		<InfoTypeCollectionFilename>rhinfotype.apj</InfoTypeCollectionFilename>
+		<VariableCollectionFilename>rhvariable.apj</VariableCollectionFilename>
+		<SnippetCollectionFilename>rhsnippet.apj</SnippetCollectionFilename>
+		<RHFrameDocsCollectionFileName>RHFrameDocs.apj</RHFrameDocsCollectionFileName>
+		<RHWordDocsCollectionFileName>RHWordDocs.apj</RHWordDocsCollectionFileName>
+		<RHCpDocsCollectionFileName>RHCpDocs.apj</RHCpDocsCollectionFileName>
+		<ScreenCollectionFilename>rhscreens.apj</ScreenCollectionFilename>
+	</Collections>
+	<mergedhelpfiles/>
+</rhpml>

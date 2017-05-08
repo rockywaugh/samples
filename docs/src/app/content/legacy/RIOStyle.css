@@ -1,0 +1,540 @@
+﻿/*Created with Adobe RoboHelp 10.*/
+BODY {
+	font-family: Arial;
+	background-color: #ffffff;
+}
+H1 {
+	font-weight: bold;
+	font-size: 24.0pt;
+	color: #0000ff;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	border-bottom-style: Solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #808080;
+}
+LI.H1 {
+	font-weight: bold;
+	font-size: 24.0pt;
+	color: #0000ff;
+}
+H2 {
+	font-weight: bold;
+	font-size: 18.0pt;
+	color: #0000ff;
+	border-bottom-style: Solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #808080;
+}
+LI.H2 {
+	font-weight: bold;
+	font-size: 18.0pt;
+	color: #0000ff;
+}
+H3 {
+	font-weight: bold;
+	font-size: 14.0pt;
+	color: #0000ff;
+	border-bottom-style: Solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #808080;
+}
+LI.H3 {
+	font-weight: bold;
+	font-size: 14.0pt;
+	color: #0000ff;
+}
+h4 {
+	font-weight: bold;
+	font-size: 12.0pt;
+	color: #0000ff;
+	x-next-class: ;
+	x-next-type: P;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	text-decoration: none;
+}
+LI.H4 {
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+H5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+LI.H5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+H6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+LI.H6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+P {
+	line-height: 150%;
+	font-family: Verdana, sans-serif;
+	font-size: 11pt;
+	margin-bottom: 7.5pt;
+	margin-top: 9pt;
+	margin-left: 0in;
+}
+A.expandspot {
+	color: #008000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+SPAN.expandtext {
+	font-style: italic;
+	font-weight: normal;
+	color: #ff0000;
+}
+A.dropspot {
+	cursor: hand;
+	color: #008000;
+	font-style: italic;
+	text-decoration: none;
+}
+A.glossterm {
+	color: #800000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+SPAN.glosstext {
+	font-style: italic;
+	font-weight: normal;
+	color: #0000ff;
+}
+OL,
+UL {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+p.TableText {
+	line-height: Normal;
+	mso-fareast-font-family: "Times New Roman";
+	margin-top: 3pt;
+	margin-bottom: 3pt;
+	margin-left: 5px;
+	font-size: 10pt;
+	font-family: Arial, sans-serif;
+}
+p.Note {
+	text-indent: -48px;
+	margin-left: 48px;
+	margin-top: 0pt;
+	x-next-class: ;
+	x-next-type: P;
+}
+rh-list.rl-p-ListNumber {
+	x-level-count: 1;
+	x-lvl-1-format: "<x>.";
+	x-lvl-1-type: decimal;
+}
+rh-list.rl-p-ListNumber {
+	x-level-count: 1;
+	x-lvl-1-format: "<x>.";
+	x-lvl-1-type: decimal;
+}
+rh-list.rl-p-ListBullet {
+	x-level-count: 1;
+	x-lvl-1-format: "<x>";
+	x-lvl-1-type: disc;
+}
+p.ListNumber {
+	margin-bottom: 7.5pt;
+	margin-top: 4.5pt;
+	text-indent: -0.25in;
+	x-next-class: ListNumber;
+	x-next-type: p;
+	margin-left: 0.25in;
+}
+p.TableColumnHeading {
+	font-family: Arial;
+	font-weight: bold;
+	margin-bottom: 3pt;
+	margin-left: 5px;
+	margin-top: 3pt;
+	font-size: 10pt;
+}
+table.Table {
+	font-size: 11pt;
+	x-1st-row: 1;
+	x-1st-row-name: t1st;
+	x-border-spacing: 0px;
+	x-col-pat-1: 1;
+	x-col-pat-1-name: t1Col;
+	x-col-pat-count: 2;
+	x-col-pat-2: 1;
+	x-col-pat-2-name: t2Col;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	margin-bottom: 12px;
+	margin-top: 12px;
+}
+table.Table td {
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+table.Table tr.t1st td {
+	font-family: Arial;
+	font-size: 11pt;
+	background-color: #99ccff;
+	font-weight: bold;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+}
+table.Table td.t1Col {
+	border-left-style: Solid;
+	border-left-width: 0px;
+	border-left-color: #000000;
+	border-right-style: Solid;
+	border-right-width: 0px;
+	border-right-color: #000000;
+	border-top-style: Solid;
+	border-top-width: 0px;
+	border-top-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+}
+table.Table td.t2Col {
+	background-color: #ffffff;
+	font-family: Arial;
+	font-size: 11pt;
+}
+table.Table tr.t1Row td {
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #808080;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #808080;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+}
+table.Table tr.t2Row td {
+	background-color: #ffffff;
+	font-family: Arial;
+	font-size: 11pt;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #808080;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #808080;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+}
+table.SimpleTable {
+	font-family: Verdana;
+	font-size: 11pt;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	margin-left: 0.1in;
+	margin-top: 12px;
+	margin-bottom: 18px;
+	x-border-spacing: 0px;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #808080;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #808080;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+}
+table.SimpleTable tr.t1Row td {
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #808080;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #808080;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+}
+table.SimpleTable tr.t2Row td {
+	background-color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #808080;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #808080;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+}
+table.SimpleTable td {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+p.ListContinue {
+	margin-top: 4.5pt;
+	margin-bottom: 7.5pt;
+	margin-left: 24px;
+}
+span.rls-1-Style1 {
+	font-family: Verdana;
+	font-size: 11pt;
+}
+span.rls-2-ListNumber1 {
+	font-family: Verdana;
+	font-size: 11pt;
+}
+span.rls-2-ListNumbera {
+	font-family: Verdana;
+	font-size: 11pt;
+}
+rh-list.ListNumber1 {
+	x-lvl-2-type: lower-alpha;
+	x-lvl-3-type: lower-roman;
+	x-lvl-4-type: decimal;
+	x-lvl-4-format: "&o<x>&c";
+	x-lvl-4-margin: 60px;
+	x-lvl-5-format: "&o<x>&c";
+	x-lvl-5-margin: 80px;
+	x-lvl-6-type: lower-roman;
+	x-lvl-6-format: "&o<x>&c";
+	x-lvl-6-margin: 100px;
+	x-lvl-8-type: lower-alpha;
+	x-lvl-8-margin: 140px;
+	x-lvl-7-format: "<x>.";
+	x-lvl-7-margin: 120px;
+	x-lvl-9-type: lower-roman;
+	x-lvl-9-margin: 160px;
+	x-lvl-1-pfx-class: rls-1-StyleNumber1;
+	x-lvl-1-format: "<x>.";
+	x-lvl-2-format: "<x>.";
+	x-lvl-3-format: "<x>.";
+	x-lvl-2-pfx-class: rls-2-ListNumber1;
+	x-lvl-2-margin: 50px;
+	x-lvl-2-p-class: ListNumber;
+	x-lvl-2-p-tag: p;
+	x-lvl-3-margin: 70px;
+	x-lvl-3-p-class: ListNumber;
+	x-lvl-3-p-tag: p;
+	x-level-count: 9;
+	x-lvl-1-p-class: ListNumber;
+	x-lvl-1-p-tag: p;
+}
+span.rls-1-StyleNumber1 {
+	font-family: Verdana;
+	font-size: 11pt;
+}
+span.rls-2-ListNumber2 {
+	font-family: Verdana;
+	font-size: 11pt;
+}
+rh-list.ListBullet1 {
+	x-lvl-4-type: decimal;
+	x-lvl-4-format: "&o<x>&c";
+	x-lvl-4-margin: 60px;
+	x-lvl-5-format: "&o<x>&c";
+	x-lvl-5-margin: 80px;
+	x-lvl-6-type: lower-roman;
+	x-lvl-6-format: "&o<x>&c";
+	x-lvl-6-margin: 100px;
+	x-lvl-8-type: lower-alpha;
+	x-lvl-8-margin: 140px;
+	x-lvl-7-format: "<x>.";
+	x-lvl-7-margin: 120px;
+	x-lvl-9-type: lower-roman;
+	x-lvl-9-margin: 160px;
+	x-lvl-1-type: disc;
+	x-lvl-1-format: "<x>";
+	x-lvl-1-p-class: ListBullet;
+	x-lvl-1-p-tag: p;
+	x-lvl-2-format: "<x>";
+	x-lvl-2-type: "En Dash";
+	x-lvl-3-format: "<x>";
+	x-lvl-3-type: circle;
+	x-lvl-2-pfx-class: rls-2-ListBullet1;
+	x-lvl-2-margin: 50px;
+	x-lvl-2-p-class: ListBullet;
+	x-lvl-2-p-tag: p;
+	x-level-count: 9;
+	x-lvl-3-margin: 70px;
+	x-lvl-3-p-class: ListBullet;
+	x-lvl-3-p-tag: p;
+	x-lvl-3-pfx-class: rls-3-ListBullet1;
+}
+p.ListBullet {
+	margin-bottom: 7.5pt;
+	margin-top: 0pt;
+	text-indent: -0.25in;
+	margin-left: 18pt;
+}
+span.rls-2-ListNumber1 {
+	font-family: Verdana;
+	font-size: 11pt;
+}
+rh-list.Note1 {
+	x-lvl-4-type: decimal;
+	x-lvl-4-format: "&o<x>&c";
+	x-lvl-4-margin: 60px;
+	x-lvl-5-format: "&o<x>&c";
+	x-lvl-5-margin: 80px;
+	x-lvl-6-type: lower-roman;
+	x-lvl-6-format: "&o<x>&c";
+	x-lvl-6-margin: 100px;
+	x-lvl-8-type: lower-alpha;
+	x-lvl-8-margin: 140px;
+	x-lvl-7-format: "<x>.";
+	x-lvl-7-margin: 120px;
+	x-lvl-9-type: lower-roman;
+	x-lvl-9-margin: 160px;
+	x-lvl-1-type: ;
+	x-lvl-1-pfx-class: rls-1-Note1;
+	x-lvl-2-type: ;
+	x-lvl-2-pfx-class: rls-2-Note1;
+	x-lvl-1-format: "Note:";
+	x-lvl-2-format: "Note:";
+	x-lvl-1-margin: 60px;
+	x-lvl-1-text-indent: -60px;
+	x-lvl-1-p-class: Note;
+	x-lvl-1-p-tag: p;
+	x-lvl-2-margin: 100px;
+	x-lvl-2-text-indent: -60px;
+	x-lvl-2-p-class: Note;
+	x-lvl-2-p-tag: p;
+	x-lvl-3-format: "Note:";
+	x-lvl-3-pfx-class: rls-3-Note1;
+	x-lvl-3-type: ;
+	x-level-count: 9;
+	x-lvl-3-margin: 140px;
+	x-lvl-3-text-indent: -60px;
+	x-lvl-3-p-class: Note;
+	x-lvl-3-p-tag: p;
+}
+span.rls-1-Note1 {
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+span.rls-2-Note1 {
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+span.rls-3-Note1 {
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+rh-list.Restart {
+	x-lvl-2-type: lower-alpha;
+	x-lvl-3-type: lower-roman;
+	x-lvl-3-format: "<x>&c";
+	x-lvl-3-margin: 40px;
+	x-lvl-4-type: decimal;
+	x-lvl-4-format: "&o<x>&c";
+	x-lvl-4-margin: 60px;
+	x-lvl-5-format: "&o<x>&c";
+	x-lvl-5-margin: 80px;
+	x-lvl-6-type: lower-roman;
+	x-lvl-6-format: "&o<x>&c";
+	x-lvl-6-margin: 100px;
+	x-lvl-8-type: lower-alpha;
+	x-lvl-8-margin: 140px;
+	x-lvl-7-format: "<x>.";
+	x-lvl-7-margin: 120px;
+	x-lvl-9-type: lower-roman;
+	x-lvl-9-margin: 160px;
+	x-lvl-1-format: "<x>.";
+	x-lvl-1-p-class: ListNumber;
+	x-lvl-1-p-tag: p;
+	x-level-count: 9;
+	x-lvl-2-format: "<x>.";
+	x-lvl-2-margin: 20px;
+	x-lvl-2-p-class: ListNumber;
+	x-lvl-2-p-tag: p;
+}
+rh-seq.1 {
+	x-font: Verdana;
+	x-count: 1;
+	x-1: 1;
+}
+img.Graphic {
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	margin-left: 0px;
+}
+span.rls-2-ListBullet1 {
+	font-family: Verdana;
+	font-size: 11pt;
+}
+span.rls-3-ListBullet1 {
+	font-family: Verdana;
+	font-size: 11pt;
+}

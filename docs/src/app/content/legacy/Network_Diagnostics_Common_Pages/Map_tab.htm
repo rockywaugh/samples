@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="OriginalFile" content="Rio Test.docx" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Map Tab</title>
+<link rel="StyleSheet" href="../RIOStyle.css" type="text/css" />
+</head>
+<body>
+<h2>Map Tab</h2>
+<p>In the Network Diagnostics module, RIO provides an interactive Map tab that displays status information for the entity level (Site down to Node) you are viewing. Depending on the level you are viewing, RIO provides different Map details.</p>
+<p>The Map allows you to see areas experiencing difficulties, so you can use them as a troubleshooting aid as well as to identify issues <i>before</i> a customer calls.</p>
+<p style="font-weight: normal;"><b style="font-weight: normal;">To view a Map, s</b>elect the <b>Map</b> tab in an entity View or select Map from the <a href="../Application_Features_and_Tools/Using_the_Service_Path.htm">Service Path</a> drop-down menu. A sample Hub map is shown below.</p>
+<p style="margin-left: 24px;"><img src="Graphics/Map_Hub.gif" alt="" style="border: none;" border="0" /></p>
+<p style="font-weight: normal;">Each Map displays the children related to the selected entity. &#160;For example, a Hub map (shown here) displays all Nodes within the Hub; and a Node map displays Accounts within the Node, etc. These entities are color coded depending on the selected <a href="#Metrics">Metric</a>.</p>
+<?rh-list_start class="ListBullet1" style="font-weight: normal; list-style: rh-list; 
+                                 list-style: rh-list;" ?>
+<p class="ListBullet">Click an entity to view details about the selected Metric in a pop-up scorecard.</p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" style="font-weight: normal; list-style: rh-list; 
+                                 list-style: rh-list;" ?>
+<p class="ListBullet">Click the entity hyper-link to jump to that entity's map.</p>
+<?rh-list_end ?><?rh-list_start class="Note1" level="2" style="font-weight: normal; list-style: rh-list; 
+                                 list-style: rh-list;" ?>
+<p class="Note" style="text-indent: -60px; margin-left: 100px;">On a Node map, clicking the Account hyper-link takes you to the Account Summary page.</p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet">Use the standard map controls to zoom in or out on the map and to pan vertically or horizontally across the map. You can also toggle between Satellite and standard Map view<span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; font-family: 'Times New Roman', serif; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">.</span></p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet">Use the Filter field to filter data associated with the map. For example, <span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-family: Arial, sans-serif;">you can filter on a street name, or a status color for a selected metric (see <a href="#Filters">Filters</a>).</span></p>
+<?rh-list_end ?>
+<p>The Map provides an option to view entities and Options in table format, click <span style="font-weight: bold;">Show Table</span>. A sample is shown below.</p>
+<p style="margin-left: 24px;"><img src="Graphics/Map_show table.gif" alt="" style="border: none;" border="0" /></p>
+<p>The table includes a column for the Metric selected and also color codes and filters items depending on selected Heatmaps and Filters.</p>
+<h2>Using Map Options</h2>
+<p>The Map provides options for viewing Metrics, GIS Data, Heatmaps, and other Filters; however, available options vary depending on the entity level you are viewing.</p>
+<p style="margin-left: 24px;"><img src="Graphics/Map_options.gif" alt="" style="border: none;" border="0" /></p>
+<p>The following table defines available options.</p>
+<table class="Table" style="margin-left: 24px;" cellspacing="0" width="91.732%">
+<col style="width: 22.742%;" />
+<col style="width: 77.258%;" />
+<tr class="t1st">
+<td>
+<p class="TableColumnHeading">Option</p>
+</td>
+<td>
+<p class="TableColumnHeading">Description</p>
+</td>
+</tr>
+<tr class="t2Row">
+<td class="t1Col" style="vertical-align: top;">
+<p class="TableText" style="font-weight: bold;"><a href="#Metrics" style="font-weight: bold;">Metrics</a></p>
+</td>
+<td class="t2Col">
+<p class="TableText">Metrics include Sign On Status, Signal Flux, Transmit and Receive Levels, and Signal to Noise Ratio. You can select <b style="mso-bidi-font-weight: normal;">only one metric</b> at a time. The marker is color coded based on the selected metric.</p>
+<p class="TableText"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-family: Arial, sans-serif; font-weight: bold;">Note:</span> <span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-family: Arial, sans-serif;">All maps include Sign-on Status. Additional metrics are available only on the Node and Account level maps.</span></p>
+</td>
+</tr>
+<tr class="t1Row">
+<td class="t1Col" style="vertical-align: top;">
+<p class="TableText" style="font-weight: bold;"><a href="#Layers" style="font-weight: bold;">Layers</a></p>
+</td>
+<td class="t2Col">
+<p class="TableText" style="mso-ansi-language: EN-US; mso-fareast-language: EN-US; font-family: Arial, sans-serif;"><span style="mso-bidi-language: AR-SA;">The HFC Plant overlay displays “line art” representing TWC’s physical plant (fiber and coax cable). This information is populated from the GIS system.</span></p>
+</td>
+</tr>
+<tr class="t2Row">
+<td class="t1Col" style="vertical-align: top;">
+<p class="TableText" style="font-weight: bold;"><a href="#Heatmaps" style="font-weight: bold;">Heatmaps</a></p>
+</td>
+<td class="t2Col">
+<p class="TableText"><span style="font-size: 11.0pt; font-family: Verdana, sans-serif; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">H</span>eat Maps include Signal Flux, Receive Levels, Sign On Status, Signal to Noise Ratio, and Transmit Levels. You may select more than one Heat Map at the same time. The Heat Map color codes the area around the marker to show the relative health based on the selected <?rh-ignored text="layer(s" ?>layer(s).</p>
+<p class="TableText" style="mso-bidi-font-size: 12.0pt; font-family: Arial, sans-serif; mso-ansi-language: EN-US; mso-fareast-language: EN-US;"><span style="mso-bidi-language: AR-SA; font-weight: bold;">Note:</span> <span style="mso-bidi-language: AR-SA;">Heatmaps are available only on the Node and Account level maps.</span></p>
+</td>
+</tr>
+<tr class="t1Row">
+<td class="t1Col" style="vertical-align: top;">
+<p class="TableText" style="font-weight: bold;"><a href="#Filters" style="font-weight: bold;">Filters</a></p>
+</td>
+<td class="t2Col">
+<p class="TableText" style="mso-bidi-language: AR-SA; font-family: Arial, sans-serif;">The map contains a free-form <a href="#Filter_Field">Filter</a> (similar to a "search" tool), and <a href="#Device_Filters">Device Filters</a> (available at the Node level) that allow you to view only accounts that have selected devices.</p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<h3><a name="Metrics" id="Metrics"></a>Metrics</h3>
+<p>The entities shown on the Map (e.g. Hubs, Nodes, etc.) are color coded by the selected Metric to show the overall <span style="font-style: italic;"><i>health</i></span> of the entity for that Metric. Each device type is rated separately, with RIO displaying the color for the worst-case scenario. RIO displays the same threshold levels as in Unified or NYROC.</p>
+<p>To view more detailed information, click the entity icon on the map. RIO displays a pop-up scorecard for the selected metric. An example for Account Sign-on Status is shown below.</p>
+<p style="margin-left: 24px;"><img src="Graphics/Map_metrics.gif" alt="" style="border: none;" border="0" /></p>
+<p>The colors depict the following general status.</p>
+<table class="Table" style="margin-left: 24px;" cellspacing="0" width="56.589%">
+<col style="width: 28.539%;" />
+<col style="width: 71.461%;" />
+<tr class="t1st">
+<td>
+<p class="TableColumnHeading">Color</p>
+</td>
+<td>
+<p class="TableColumnHeading">Threshold</p>
+</td>
+</tr>
+<tr class="t2Row">
+<td class="t1Col">
+<p class="TableText" style="font-weight: normal;">Green</p>
+</td>
+<td class="t2Col">
+<p class="TableText">Levels are "good."</p>
+</td>
+</tr>
+<tr class="t1Row">
+<td class="t1Col">
+<p class="TableText" style="font-weight: normal;">Yellow</p>
+</td>
+<td class="t2Col">
+<p class="TableText">Levels are at a "warning" state.</p>
+</td>
+</tr>
+<tr class="t2Row">
+<td class="t1Col">
+<p class="TableText" style="font-weight: normal;">Red</p>
+</td>
+<td class="t2Col">
+<p class="TableText">Levels are at a "critical" state.</p>
+</td>
+</tr>
+</table>
+<p>By default, maps display Sign-on status when you first access them. Selecting a different metric refreshes the map and changes the color coding to represent the entity's health for that metric. The available Metrics for Node and Account are listed in the following table.</p>
+<table class="Table" style="margin-left: 24px;" cellspacing="0" width="79.587%">
+<col style="width: 26.298%;" />
+<col style="width: 73.702%;" />
+<tr class="t1st">
+<td>
+<p class="TableColumnHeading">Metric</p>
+</td>
+<td>
+<p class="TableColumnHeading">Shows . . .</p>
+</td>
+</tr>
+<tr class="t2Row">
+<td class="t1Col" style="vertical-align: top;">
+<p class="TableText" style="font-weight: bold;">Sign-on</p>
+</td>
+<td class="t2Col">
+<p class="TableText" style="mso-ansi-language: EN-US; mso-fareast-language: EN-US; font-family: Arial, sans-serif; mso-bidi-language: AR-SA; font-size: 10pt;">Sign-on percentage for CPEs. This is the default metric.</p>
+</td>
+</tr>
+<tr class="t1Row">
+<td class="t1Col" style="vertical-align: top;">
+<p class="TableText" style="font-weight: bold;">Flux</p>
+</td>
+<td class="t2Col">
+<p class="TableText" style="mso-ansi-language: EN-US; mso-fareast-language: EN-US; font-family: Arial, sans-serif; mso-bidi-language: AR-SA; font-size: 10pt;">Devices experiencing Transmit or Receive signal level fluctuation.</p>
+</td>
+</tr>
+<tr class="t2Row">
+<td class="t1Col" style="vertical-align: top;">
+<p class="TableText" style="font-weight: bold;">Transmit</p>
+</td>
+<td class="t2Col">
+<p class="TableText" style="mso-bidi-font-size: 12.0pt; font-family: Arial, sans-serif; mso-ansi-language: EN-US; mso-fareast-language: EN-US; font-size: 10pt;"><span style="mso-bidi-language: AR-SA;">Transmit power levels (TX) for the device. These must be within a certain range.</span></p>
+</td>
+</tr>
+<tr class="t1Row">
+<td class="t1Col" style="vertical-align: top;">
+<p class="TableText" style="font-weight: bold;">Receive</p>
+</td>
+<td class="t2Col">
+<p class="TableText" style="mso-bidi-font-size: 12.0pt; font-family: Arial, sans-serif; mso-ansi-language: EN-US; mso-fareast-language: EN-US; font-size: 10pt;"><span style="mso-bidi-language: AR-SA;">Receive power levels (RX) for the device. These must be within a certain range.</span></p>
+</td>
+</tr>
+<tr class="t2Row">
+<td class="t1Col" style="vertical-align: top;">
+<p class="TableText" style="font-weight: bold;">SNR</p>
+</td>
+<td class="t2Col">
+<p class="TableText" style="mso-bidi-font-size: 12.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; font-family: Arial, sans-serif; mso-bidi-language: AR-SA; font-size: 10pt;">Signal to Noise Ratio (SNR) levels for the modem. These must be within a certain range.</p>
+</td>
+</tr>
+<tr class="t1Row">
+<td class="t1Col" style="vertical-align: top;">
+<p class="TableText" style="font-weight: bold;">Trouble Calls</p>
+</td>
+<td class="t2Col">
+<p class="TableText" style="font-family: Arial, sans-serif;">Shows Accounts with active trouble calls and the corresponding Work Order number.</p>
+</td>
+</tr>
+</table>
+<?rh-list_start class="Note1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="Note" style="text-indent: -60px; margin-left: 60px;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">You can select <i style="mso-bidi-font-style: normal;">only one</i></span> <i style="mso-bidi-font-style: normal;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-style: normal;">Metric</span></i> <span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">at a time. The marker is color coded based on the selected Metric. You may, however, select a Metric plus Heatmaps, and the GIS Overlay at the same time.</span></p>
+<?rh-list_end ?>
+<h3><a name="Layers" id="Layers"></a>Layers</h3>
+<p><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">The Map provides options to view physical plant information and weather data.</span> In many areas, at the Node and Account levels, map “line art” is available representing TWC’s physical plant (fiber and coax cable). This information is populated from the GIS system.</p>
+<p><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">To view the GIS line art, select <b style="mso-bidi-font-weight: normal;">HFC Plant</b> in the Layers list. A sample Node with line art turned on is shown below.</span></p>
+<?rh-list_start class="Note1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="Note" style="text-indent: -60px; margin-left: 60px;">GIS information is <b>not</b> available in all areas.</p>
+<?rh-list_end ?>
+<p style="margin-left: 24px;"><img src="Graphics/Map_Layers_Node line art.gif" alt="" style="border: none;" border="0" /></p>
+<?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet">Red represents coax and blue represents the fiber into the node.</p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet">To turn off line art, deselect the HFC Plant option in the Layers list.</p>
+<?rh-list_end ?>
+<p style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt;"><span style="mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">The Layers option also includes weather radar data. To view, select</span> <span style="mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-weight: bold;">NEXRAD</span><span style="mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">.</span></p>
+<p>&#160;</p>
+<h3><a name="Heatmaps" id="Heatmaps"></a>Heatmaps</h3>
+<p><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">The heatmap color codes the area around the entity marker to show the relative health of the entity based on the selected map. The farther the levels are out of range or above/below threshold levels, the deeper the color. If you select more than one Heatmap, the color coding is cumulative. Heatmaps for Sign On and IVR Calls are available on all Maps; however, the Node map contains additional Heatmap options.</span> &#160;</p>
+<p style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt;"><span style="mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">Select the option(s) you want to view from the Heatmap list. A sample Hub heatmap for IVR Calls is shown below.</span></p>
+<p style="margin-left: 24px;"><img src="Graphics/Map_heatmaps.gif" alt="" style="border: none;" border="0" /></p>
+<p>Heatmap options are defined in the following table.</p>
+<table class="Table" style="margin-left: 24px;" cellspacing="0" width="79.587%">
+<col style="width: 26.298%;" />
+<col style="width: 73.702%;" />
+<tr class="t1st">
+<td>
+<p class="TableColumnHeading">Heatmap Option</p>
+</td>
+<td>
+<p class="TableColumnHeading">Shows . . .</p>
+</td>
+</tr>
+<tr class="t2Row">
+<td class="t1Col" style="vertical-align: top;">
+<p class="TableText" style="font-weight: bold;">Sign-on</p>
+</td>
+<td class="t2Col" style="vertical-align: top;">
+<p class="TableText"><span style="mso-bidi-font-size: 12.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">A</span><span style="mso-bidi-font-size: 12.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">ccounts with some (yellow) or all (red) devices offline within the past few minutes</span><span style="mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">.</span></p>
+</td>
+</tr>
+<tr class="t1Row">
+<td class="t1Col" style="vertical-align: top;">
+<p class="TableText" style="font-weight: bold;">Flux</p>
+</td>
+<td class="t2Col">
+<p class="TableText"><span style="mso-bidi-font-size: 12.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">F</span><span style="mso-bidi-font-size: 12.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">luctuation in signal health over a given day. Deeper colors reflect more fluctuation</span><span style="mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">.</span></p>
+</td>
+</tr>
+<tr class="t2Row">
+<td class="t1Col" style="vertical-align: top;">
+<p class="TableText" style="font-weight: bold;">Transmit</p>
+</td>
+<td class="t2Col">
+<p class="TableText" style="mso-bidi-font-size: 12.0pt; font-family: Arial, sans-serif; mso-ansi-language: EN-US; mso-fareast-language: EN-US; font-size: 10pt;"><span style="mso-bidi-language: AR-SA;">Transmit power levels (TX) for the device. These must be within a certain range.</span></p>
+</td>
+</tr>
+<tr class="t1Row">
+<td class="t1Col" style="vertical-align: top;">
+<p class="TableText" style="font-weight: bold;">Receive</p>
+</td>
+<td class="t2Col">
+<p class="TableText" style="mso-bidi-font-size: 12.0pt; font-family: Arial, sans-serif; mso-ansi-language: EN-US; mso-fareast-language: EN-US; font-size: 10pt;"><span style="mso-bidi-language: AR-SA;">Receive power levels (RX) for the device. These must be within a certain range.</span></p>
+</td>
+</tr>
+<tr class="t2Row">
+<td class="t1Col" style="vertical-align: top;">
+<p class="TableText" style="font-weight: bold;">SNR</p>
+</td>
+<td class="t2Col">
+<p class="TableText" style="mso-ansi-language: EN-US; mso-fareast-language: EN-US; font-family: Arial, sans-serif; mso-bidi-language: AR-SA;">Signal to Noise Ratio (SNR) that should be above a threshold for DOCSIS devices.</p>
+</td>
+</tr>
+<tr class="t1Row">
+<td class="t1Col" style="vertical-align: top;">
+<p class="TableText" style="font-weight: bold;">IVR Calls</p>
+</td>
+<td class="t2Col">
+<p class="TableText" style="mso-ansi-language: EN-US; mso-fareast-language: EN-US; font-family: Arial, sans-serif;"><span style="mso-bidi-language: AR-SA;">Areas with calls to the</span> Interactive Voice Response (IVR) system.</p>
+</td>
+</tr>
+</table>
+<?rh-list_start class="Note1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="Note" style="text-indent: -60px; margin-left: 60px;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">You may select more than one Heatmap at the same time, plus you may also select a Metric and GIS Overlay at the same time.</span></p>
+<?rh-list_end ?>
+<h3><a name="Filters" id="Filters"></a>Filters</h3>
+<p>The Map contains two types of filters:</p>
+<?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet" style="mso-list: l0 level1 lfo1;">The <b style="mso-bidi-font-weight: normal;">Filter</b> field is a text field that allows you to filter data associated with the map. For example, you can filter on a street name, or a status color for a selected metric.</p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet" style="mso-list: l0 level1 lfo1;">Device filters are checkbox selections that allow you to view only accounts with associated devices.</p>
+<?rh-list_end ?>
+<h4><a name="Filter_Field" id="Filter_Field"></a>Filter Field</h4>
+<p class="MsoNormal">To use the free text Filter field, enter your criteria and press <b style="mso-bidi-font-weight: normal;">[Enter]</b>.</p>
+<p><span style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">A sample Node Map filtering on the color “red” is shown below. In this example, all accounts with a red Sign On status are shown on the map and listed in the table.</span></p>
+<p style="margin-left: 24px;"><img src="Graphics/Map_Filter field.gif" alt="" style="border: none;" border="0" /></p>
+<?rh-list_start class="Note1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="Note" style="text-indent: -60px; margin-left: 60px;"><span style="mso-list: l0 level1 lfo1;">If you select a different metric from the Options list, the map displays results for that metric.</span></p>
+<?rh-list_end ?>
+<p>Additional filters may include street name, account number, etc.</p>
+<h4><a name="Device_Filters" id="Device_Filters"></a>Device Filters</h4>
+<p>The Device Filter (available at the Node level) allows you to view only accounts with the selected associated devices. Options include WiFi, Set-top, Cable Modem, and MTA. You can also select options to see which accounts have services offline, including All Service Outs, or by device type.</p>
+<?rh-list_start class="Note1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="Note" style="mso-list: l0 level1 lfo1; text-indent: -60px; margin-left: 60px;"><span style="font-family: Verdana, sans-serif;">WiFi is not available in all areas.</span></p>
+<?rh-list_end ?>
+<p style="margin-left: 24px;"><img src="Graphics/Map_Node_Filters.gif" alt="" style="border: none;" border="0" /></p>
+<p>To view a list of Account details, click <span style="font-weight: bold;">Show Table</span>.</p>
+</body>
+</html>

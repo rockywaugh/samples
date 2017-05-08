@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rhpml majorversion="7" minorversion="13">
+	<folders>
+		<folder>
+			<name>Graphics</name>
+		</folder>
+	</folders>
+	<topics>
+		<topic>
+			<name>Creating_a_Trouble_Ticket.htm</name>
+			<comments></comments>
+			<frameset>0</frameset>
+		</topic>
+	</topics>
+	<folders>
+		<folder>
+			<name>Unresolved_Outages_Dashboard</name>
+		</folder>
+	</folders>
+</rhpml>

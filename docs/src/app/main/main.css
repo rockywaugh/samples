@@ -1,0 +1,173 @@
+h4 {
+  margin: 0px;
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+.topnav {
+  height: 56px;
+  min-height: 56px;
+  padding: 16px 18px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+}
+
+.background-regal {
+  background: #068ec6;
+  color: #fff;
+}
+
+.l-layer-5 {
+  z-index: 5;
+}
+
+.l-layer-4 {
+  z-index: 4;
+}
+
+.l-layer-3 {
+  z-index: 3;
+}
+
+.l-pinned-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.l-pinned-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.l-offset-nav {
+  padding-top: 56px;
+}
+
+.l-offset-side-nav {
+  padding-left: 250px;
+}
+
+.main {
+  height: 100%;
+}
+
+.sidebar {
+  font-family: "Roboto","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  background: #ECEFF1;
+  box-shadow: 3px 0 6px rgba(0,0,0,0.3);
+  width: 232px;
+  bottom: 0;
+  overflow: auto;
+}
+
+.sidebar div {
+}
+
+.sidebar-list {
+  /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+.sidebar-blocks {
+  margin: 0;
+  padding-bottom: 0px;
+  list-style-type: none;
+  border-bottom: 1px solid #CFD8DC;
+  color: #546E7A;
+}
+
+.sidebar-list > .sidebar-blocks {
+  cursor: pointer;
+  min-height: 16px;
+  position: relative;
+}
+
+.sidebar-list > .sidebar-blocks:hover {
+}
+
+.sidebar-list > .sidebar-blocks > a {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 16px 16px;
+  font-size:13px;
+  color: #546E7A;
+  display: block;
+}
+
+.sidebar-list-second {
+  box-shadow: inset 0 2px 2px rgba(0,0,0,0.24),inset 0 -2px 2px rgba(0,0,0,0.08);
+}
+
+.sidebar-list-second ul {
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-list-second ul li {
+  padding: 0;
+  list-style: none;
+  cursor:pointer;
+  min-height: 16px;
+  position: relative;
+  border-bottom: 1px solid #CFD8DC;
+}
+
+.sidebar-list-second ul li a {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.sidebar-list-second ul li a:hover {
+  text-decoration: none;
+}
+
+.sidebar-list-second ul li a:active {
+  text-decoration: none;
+}
+
+.sidebar-list-second > ul {
+
+}
+
+.sidebar-list-second > ul > li:hover {
+  background-color: #CFD8DC;
+}
+
+.sidebar-list-second > ul > li:active {
+  background-color: #CFD8DC;
+}
+
+.sidebar-list-second > ul > li > a {
+  padding: 16px 16px;
+  line-height: 32px;
+}
+
+.sidebar-list-third {
+}
+.sidebar-list-third > ul > li {
+  border-bottom: none;
+}
+
+.sidebar-list-third > ul > li > a {
+  padding-left:24px;
+}
+
+.content {
+  margin-left: 10px;
+}
+
+.content ul li ul li {
+  list-style-type:circle;
+}
+
+/*
+ * See https://github.com/angular/angular.io/blob/master/public/docs/_examples/styles.css
+ * for the full set of master styles used by the documentation samples
+ */

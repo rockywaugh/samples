@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="OriginalFile" content="Rio Test.docx" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Summary Tab</title>
+<link rel="StyleSheet" href="../RIOStyle.css" type="text/css" />
+</head>
+<body>
+<h2>Summary Tab</h2>
+<p>The Summary tab in the Account View is the default landing page when accessing an Account. The Summary tab displays basic customer account information <span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">and the CPE devices associated with the account—organized by the service the device provides: video, data, or voice</span>. A sample is shown below.</p>
+<p style="margin-left: 24px;"><img src="Graphics/Billing Account_Summary tab.gif" alt="" style="border: none;" border="0" /></p>
+<p style="margin-bottom: .0001pt;">The Summary tab contains the following panels.</p>
+<table class="Table" style="margin-left: 24px;" cellspacing="0" width="77.438%">
+<col style="width: 26.449%;" />
+<col style="width: 73.551%;" />
+<tr class="t1st">
+<td>
+<p class="TableColumnHeading">Panel</p>
+</td>
+<td>
+<p class="TableColumnHeading">Displays</p>
+</td>
+</tr>
+<tr class="t2Row">
+<td class="t1Col">
+<p class="TableText" style="font-weight: bold;">Neighborhood</p>
+</td>
+<td class="t2Col">
+<p class="TableText">Account location in a map view. To view the larger Node map, click the pop-out icon (<img src="Graphics/popout_icon.gif" alt="" style="border: none;" border="0" />).</p>
+</td>
+</tr>
+<tr class="t1Row">
+<td class="t1Col">
+<p class="TableText" style="font-weight: bold;">Summary</p>
+</td>
+<td class="t2Col">
+<p class="TableText">Account street address as provided by the billing system, Amp data, and Account Status.</p>
+</td>
+</tr>
+<tr class="t2Row">
+<td class="t1Col">
+<p class="TableText" style="font-weight: bold;">Recent IVR Calls</p>
+</td>
+<td class="t2Col">
+<p class="TableText">A list of calls that the customer initiated to TWC Customer Care and which were routed through the Interactive Voice Response (IVR) system. For additional details click the <span style="font-weight: bold;">More...</span> link or the <a href="Account_IVR_Calls_Tab.htm">IVR</a> tab.</p>
+</td>
+</tr>
+<tr class="t1Row">
+<td class="t1Col">
+<p class="TableText" style="font-weight: bold;">Video</p>
+</td>
+<td class="t2Col">
+<p class="TableText">Set-top boxes on the account including MAC Address, Serial number (if different from MAC Address), status and health. RIO separates the devices by type; including: <a href="#ADSG_STBs">ADSG</a>, Scientific Atlanta (SA), <a href="#Motorola_STBs">Motorola</a>, and <a href="#Hydra_STBs">Hydra</a>—including any associated IP STBs.</p>
+</td>
+</tr>
+<tr class="t2Row">
+<td class="t1Col">
+<p class="TableText" style="font-weight: bold;">Data</p>
+</td>
+<td class="t2Col">
+<p class="TableText">Cable modem devices on the account, including MAC Address, Serial number (if different from MAC Address), status, and health.</p>
+</td>
+</tr>
+<tr class="t1Row">
+<td class="t1Col">
+<p class="TableText" style="font-weight: bold;">Voice</p>
+</td>
+<td class="t2Col">
+<p class="TableText">MTA devices on the account including Mac Address for MTA and cable modem, Serial number (if different from MAC Address), status, and health bar.</p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<h3><b><a name="ADSG_STBs" id="ADSG_STBs"></a>ADSG STBs</b></h3>
+<p><b style="font-weight: normal;">F</b>or Advanced DOCIS Set-top Gateway (ADSG) devices (a set-top box with a DOCSIS cable modem), RIO displays the MAC Address for both the STB and the embedded cable modem. A sample is shown below.</p>
+<p style="margin-left: 24px;"><img src="../Screens/Account View/Account Summary_ADSG STB.gif" alt="" style="border: none;" border="0" /></p>
+<p>&#160;</p>
+<h3><b><a name="Motorola_STBs" id="Motorola_STBs"></a>Motorola STBs</b></h3>
+<p>The information RIO displays for Motorola set-top boxes is slightly different from the Scientific Atlanta (SA) boxes. A sample Video panel from an Account Summary tab with Motorola data is shown below.</p>
+<p style="margin-left: 24px;"><img src="../Screens/Account View/Account Summary_Moto STB.gif" alt="" style="border: none;" border="0" /></p>
+<p>RIO displays overall status and health for Motorola devices.</p>
+<?rh-list_start class="Note1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="Note" style="text-indent: -60px; margin-left: 60px;">Motorola data is not always retrievable and RIO may time out waiting for a response. In these cases, attempt to reload the page to display data.</p>
+<?rh-list_end ?>
+<h3><a name="Hydra_STBs" id="Hydra_STBs"></a>Hydra STBs</h3>
+<p>The Hydra-class STB uses the Hosted Navigator (HNAV) application in support of the whole-house DVR product. For Hydra-class STBs, RIO displays the MAC address for the embedded set-top box (<?rh-ignored text="eSTB" ?>eSTB) and cable modem (CM) components along with the cable modem’s connectivity and status. RIO also lists any HNAV IP STBs connected to the Hydra box. A sample is shown below.</p>
+<p style="margin-left: 24px;"><img src="../Screens/Account View/Account Summary_Hydra STB.gif" alt="" style="border: none;" border="0" /></p>
+<p>&#160;</p>
+<p>&#160;</p>
+</body>
+</html>

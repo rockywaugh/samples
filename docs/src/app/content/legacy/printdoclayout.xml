@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--Printed Documentation Layout-->
+<printdoclayout version="2">
+  <temphistory/>
+ <stylemapping>
+   <templatefile type="msword" filename=""/>
+   <maps/>
+ </stylemapping>
+ <tocstructure>
+  <chapter name="RIO Field (Tech Ops Only)">
+    <page name="HFC Dashboard" topic="Tech_Ops_Module\HFC_Dashboard.htm" flags="0" topicid="-1"/>
+    <page name="Getting Started Wizard" topic="Tech_Ops_Module\Getting_Started_Wizard.htm" flags="0" topicid="-1"/>
+    <page name="Using Filters" topic="Tech_Ops_Module\Using_Filters.htm" flags="0" topicid="-1"/>
+    <page name="Managing Alerts" topic="Tech_Ops_Module\Managing_Alerts.htm" flags="0" topicid="-1"/>
+  </chapter>
+ </tocstructure>
+  <sectionhistory/>
+ <sectionlist>
+   <section type="defaulttitlepage" name="" url="" flags="0" topicid="-1"/>
+   <section type="toc" name="" url="" flags="0" topicid="-1"/>
+   <section type="topics" name="" url="" flags="0" topicid="-1"/>
+   <section type="glossary" name="" url="" flags="0" topicid="-1"/>
+   <section type="index" name="" url="" flags="0" topicid="-1"/>
+ </sectionlist>
+  <robopdfgeneratorsettings data="resIndex=3&amp;jpegImageQuality=75&amp;imageDPI=96&amp;quiet=0&amp;Quality=3&amp;resolution=96&amp;customResolution=300&amp;customImageDPI=96&amp;customJpegImageQuality=75&amp;pdfTemplateEnable=0&amp;pdfTemplateOnTop=0&amp;pdfTemplate=&amp;watermark=&amp;watermarkText=&amp;watermarkFontName=Arial&amp;watermarkFontSize=48&amp;watermarkStyle=0&amp;watermarkColor=90&amp;sd_permissionFlags=-64&amp;sd_enabled=0&amp;sd_keyLen=16&amp;sd_up=&amp;sd_op=&amp;"/>
+</printdoclayout>

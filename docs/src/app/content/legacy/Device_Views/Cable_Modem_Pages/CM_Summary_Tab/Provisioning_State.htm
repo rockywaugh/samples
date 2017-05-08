@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Provisioning State</title>
+<link rel="StyleSheet" href="../../../RIOStyle.css" type="text/css" />
+</head>
+<body>
+<h4>Provisioning State</h4>
+<p>The Provisioning State panel displays provisioning status information and indicates if any differences exist between LeaseLogger/MAC to IP and LDAP. <span style="mso-spacerun: yes;">&#160;</span>A sample of a healthy device with no discrepancies (the billing feature codes match what is provisioned in LDAP and what is active on the device) is shown below.</p>
+<p style="margin-left: 24px;"><img src="../../Graphics/Provisioning_state_healthy.gif" alt="" style="border: none;" border="0" /></p>
+<p>This panel refreshes automatically when the status changes from “offline” to “alive” mode. Hover over items in the panel to view additional information. A sample is shown below.</p>
+<p style="margin-left: 24px;"><img src="../../Graphics/Provisioning_State_features.gif" alt="" style="border: none;" border="0" /></p>
+<?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet" style="mso-list: l0 level1 lfo1;"><span style="mso-list: l0 level1 lfo1;">Hover over each Feature Code to see a definition of the code.</span></p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet" style="mso-list: l0 level1 lfo1;">Hover over Provisioned Features to see provisioning information from the billing system and LDAP (a sample is shown above).</p>
+<?rh-list_end ?><?rh-list_start class="ListBullet1" style="list-style: rh-list; list-style: rh-list;" ?>
+<p class="ListBullet"><span style="mso-list: l0 level1 lfo1;">Hover over Active Features to view the active feature codes on the device.</span></p>
+<?rh-list_end ?>
+<h5>No Information:</h5>
+<p><span style="mso-list: l0 level1 lfo1;">I</span>f no information is available about the device’s provisioning, RIO displays the following.</p>
+<p style="margin-left: 24px;"><img src="../../Graphics/Provisioning_state_no info.gif" alt="" style="border: none;" border="0" /></p>
+<p>&#160;</p>
+<h5>Device Disabled:</h5>
+<p>If a device has been correctly disabled and is not provisioned, RIO displays the following.</p>
+<p style="margin-left: 24px;"><img src="../../Graphics/Provisioning_state_device_disabled.gif" alt="" style="border: none;" border="0" /></p>
+<p>&#160;</p>
+<h5>Provisioning Discrepancies:</h5>
+<p>If any provisioning discrepancies are apparent (for example a mismatch between LDAP and what is active on the device), RIO displays a red icon. Hover over the status to view additional information or actions required. A sample is shown below.</p>
+<p style="margin-left: 24px;"><img src="../../Graphics/Provisioning_State_discrepancy.gif" alt="" style="border: none;" border="0" /></p>
+<p>&#160;</p>
+</body>
+</html>
